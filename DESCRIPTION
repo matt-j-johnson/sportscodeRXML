@@ -1,0 +1,19 @@
+Package: sportscodeRXML
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: person("Matthew", "Johnson", role = 'cre')
+Maintainer: <matthewjamesjohnson0@gmail.com>
+Description: A set of functions that import Sportscode .xml files into an R dataframe, and exports a structured R dataframe to a .xml file with structure that is compatible with SportsCode.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    magrittr,
+    tibble,
+    tidyr,
+    tidyselect,
+    XML,
+    xml2
+RoxygenNote: 7.3.1
